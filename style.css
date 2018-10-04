@@ -1,0 +1,99 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: #40a63d1a;
+}
+
+/* Write all your CSS here! */
+
+
+
+.navbar{
+    padding: 2px;
+}
+.navbar-brand{
+    color: red !important;
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+}
+#container{
+    margin: 89px;
+}
+#flags{
+    display: flex;
+  
+}
+
+.flag-zh{
+    background-image: url('images/zh-flag.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 9px;
+    width: 30px;
+    height: 30px;
+}
+.flag-ur{
+    background-image: url('images/ur-flag.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 9px;
+    width: 30px;
+    height: 30px;
+}
+.flag-en{
+    background-image: url('images/en-flag.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 18px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #494949;
+    color: #b2b0b2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link{
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn{
+    font-size: 10px;
+    background-color: #2da745;
+    border-radius: 0;
+    color: #ffffff;
+
+}
+.card-body{
+    display: flex;
+    padding: 0;
+    font-size: 11px;
+}
+.fas{
+    color: #2da745;
+}
+i{
+    margin-right: 10px;
+}
+.card{
+    width: 550px;
+    
+}
+.card-text{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a{
+    color: green;
+    
+}
